@@ -30,16 +30,16 @@ Essentially its a [us-keyboard-layout](http://en.wikipedia.org/wiki/File:KB_Unit
 ### Installation (MAC)
 
 #### per user (not available at login screen, no admin rights required)
-Unzip `coDE.bundle.zip`, copy `coDE.bundle` into `~/Library/Keyboard Layouts`, restart your mac and pick `coDE` (German -> coDE) as layout in the preference pane.
+Unzip `coDE.bundle.zip`, copy `coDE.bundle` into `~/Library/Keyboard Layouts` and pick `coDE` (German -> coDE) as layout in the preference pane. A restart may be required.
 
 #### for everyone (admin rights required)
-Unzip `coDE.bundle.zip`, copy `coDE.bundle` into `/Library/Keyboard Layouts`, restart your mac and pick `coDE` (German -> coDE) as layout in the preference pane.
+Unzip `coDE.bundle.zip`, copy `coDE.bundle` into `/Library/Keyboard Layouts` and pick `coDE` (German -> coDE) as layout in the preference pane. A restart may be required.
 
 
 ### Installation (WIN)
 
 #### for everyone (admin rights required)
-Unzip `setup-win.zip`, execute `setup.exe` and pick layout `Deutsch (Lichtenstein) - coDE German Programming Layout`.
+Unzip `setup-win.zip`, execute `setup.exe` and pick layout `Deutsch (Lichtenstein) - coDE German Programming Layout`. A restart may be required.
 
 #### per session (portable, no admin rights required, suited for use at public places)
 Unzip `portable-win.zip`, execute `pkl.exe`. (Control via tray-icon)
