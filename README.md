@@ -1,23 +1,24 @@
 ### Credits
 Initial mac-layout: bmaeser
 
+
 # coDE
-A german optimized keyboard-layout (mac / win: soon) for programmers (based on US-QWERTY).
+A german optimized keyboard-layout (mac / win) for programmers (based on US-QWERTY).
 
 Works on ANSI and ISO keyboards.
 
 Essentially its a [us-keyboard-layout](http://en.wikipedia.org/wiki/File:KB_United_States-NoAltGr.svg) with some alterations:
 
 * `Z` and `Y` are are swapped. (QWERTZ)
-* your umlauts, `€` and `ß` work with `option-key` / `alt` + base-key:
-    * `option` + `A` = `ä`
-    * `option` + `shift` + `A` = `Ä`
-    * `option` + `O` = `ö`
-    * `option` + `shift` + `O` = `Ö`
-    * `option` + `U` = `ü`
-    * `option` + `shift` + `U` = `Ü`
-    * `option` + `S` = `ß`
-    * `option` + `E` = `€`
+* your umlauts, `€` and `ß` work with `option-key` / `alt` (win: `AltGr`) + base-key:
+    * `alt` + `A` = `ä`
+    * `alt` + `shift` + `A` = `Ä`
+    * `alt` + `O` = `ö`
+    * `alt` + `shift` + `O` = `Ö`
+    * `alt` + `U` = `ü`
+    * `alt` + `shift` + `U` = `Ü`
+    * `alt` + `S` = `ß`
+    * `alt` + `E` = `€`
 * `~` (tilde / unix-home) is on two places:
     * `shift` + `` ` `` (us-standard)
     * on the extra key on ISO-keyboards, between `left-shift` and `Y` (extra key: yay!)
@@ -26,25 +27,31 @@ Essentially its a [us-keyboard-layout](http://en.wikipedia.org/wiki/File:KB_Unit
 * 'period' on the numblock produces `,` not `.`
 
 
-### Installation
+### Installation (MAC)
 
-#### per user (not available at login screen)
+#### per user (not available at login screen, no admin rights required)
 Copy `coDE.bundle` into `~/Library/Keyboard Layouts` and pick `coDE` (German -> coDE) as layout in the preference pane.
 
-#### for everyone
+#### for everyone (admin rights required)
 Copy `coDE.bundle` into `/Library/Keyboard Layouts` and pick `coDE` (German -> coDE) as layout in the preference pane.
 
-### Layout Images (ISO / MAC)
+
+### Installation (WIN)
+
+#### for everyone (admin rights required)
+Unzip `setup-win.zip`, execute `setup.exe` and pick layout `Deutsch (Lichtenstein) - coDE German Programming Layout`.
+
+
+### Layout Images (ISO)
 
 ### default
-![default](https://raw.githubusercontent.com/progmem64/coDE/master/layout-mac/default.png)
+![default](https://raw.githubusercontent.com/progmem64/coDE/master/layout-img/default.png)
 
 ### shift
-![shift](https://raw.githubusercontent.com/progmem64/coDE/master/layout-mac/shift.png)
+![shift](https://raw.githubusercontent.com/progmem64/coDE/master/layout-img/shift.png)
 
-### alt
-![alt](https://raw.githubusercontent.com/progmem64/coDE/master/layout-mac/alt.png)
+### alt (win: AltGr)
+![alt](https://raw.githubusercontent.com/progmem64/coDE/master/layout-img/alt.png)
 
-### alt + shift
-![alt + shift](https://raw.githubusercontent.com/progmem64/coDE/master/layout-mac/altshift.png)
-
+### alt + shift (win: AltGr + Shift)
+![alt + shift](https://raw.githubusercontent.com/progmem64/coDE/master/layout-img/altshift.png)
