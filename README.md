@@ -1,11 +1,14 @@
-## coDE
-A mac-keyboard-layout for german speaking hackers that does not suck.
+### Credits
+Initial mac-layout: bmaeser
 
-Works on ANSI and ISO keyboards. Easy to learn because most of the stuff is there where you expect it to be (not like complete new layouts like DVORAK or NEO). 
+# coDE
+A german optimized keyboard-layout (mac / win: soon) for programmers (based on US-QWERTY).
+
+Works on ANSI and ISO keyboards.
 
 Essentially its a [us-keyboard-layout](http://en.wikipedia.org/wiki/File:KB_United_States-NoAltGr.svg) with some alterations:
 
-* `Z` and `Y` are where german speaking people like it. (`Z` is between `T` and `U`, `Y` left of `X`)
+* `Z` and `Y` are are swapped. (QWERTZ)
 * your umlauts, `€` and `ß` work with `option-key` / `alt` + base-key:
     * `option` + `A` = `ä`
     * `option` + `shift` + `A` = `Ä`
@@ -25,19 +28,23 @@ Essentially its a [us-keyboard-layout](http://en.wikipedia.org/wiki/File:KB_Unit
 
 ### Installation
 
-Copy `coDE.keylayout` into `~/Library/Keyboard Layouts` and pick `coDE` as layout in the preference pane.
+#### per user (not available at login screen)
+Copy `coDE.bundle` into `~/Library/Keyboard Layouts` and pick `coDE` (German -> coDE) as layout in the preference pane.
 
-### Layout Images (ISO)
+#### for everyone
+Copy `coDE.bundle` into `/Library/Keyboard Layouts` and pick `coDE` (German -> coDE) as layout in the preference pane.
+
+### Layout Images (ISO / MAC)
 
 ### default
-![default](https://raw.githubusercontent.com/bmaeser/coDE/master/default.png)
+![default](https://raw.githubusercontent.com/progmem64/coDE/master/layout-mac/default.png)
 
 ### shift
-![shift](https://raw.githubusercontent.com/bmaeser/coDE/master/shift.png)
+![shift](https://raw.githubusercontent.com/progmem64/coDE/master/layout-mac/shift.png)
 
 ### alt
-![alt](https://raw.githubusercontent.com/bmaeser/coDE/master/alt.png)
+![alt](https://raw.githubusercontent.com/progmem64/coDE/master/layout-mac/alt.png)
 
 ### alt + shift
-![alt + shift](https://raw.githubusercontent.com/bmaeser/coDE/master/altshift.png)
+![alt + shift](https://raw.githubusercontent.com/progmem64/coDE/master/layout-mac/altshift.png)
 
