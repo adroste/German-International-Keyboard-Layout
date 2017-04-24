@@ -30,10 +30,10 @@ Essentially its a [us-keyboard-layout](http://en.wikipedia.org/wiki/File:KB_Unit
 ### Installation (MAC)
 
 #### per user (not available at login screen, no admin rights required)
-Unzip `coDE.bundle.zip`, copy `coDE.bundle` into `~/Library/Keyboard Layouts` and pick `coDE` (German -> coDE) as layout in the preference pane.
+Unzip `coDE.bundle.zip`, copy `coDE.bundle` into `~/Library/Keyboard Layouts`, restart your mac and pick `coDE` (German -> coDE) as layout in the preference pane.
 
 #### for everyone (admin rights required)
-Unzip `coDE.bundle.zip`, copy `coDE.bundle` into `/Library/Keyboard Layouts` and pick `coDE` (German -> coDE) as layout in the preference pane.
+Unzip `coDE.bundle.zip`, copy `coDE.bundle` into `/Library/Keyboard Layouts`, restart your mac and pick `coDE` (German -> coDE) as layout in the preference pane.
 
 
 ### Installation (WIN)
