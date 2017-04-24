@@ -30,10 +30,10 @@ Essentially its a [us-keyboard-layout](http://en.wikipedia.org/wiki/File:KB_Unit
 ### Installation (MAC)
 
 #### per user (not available at login screen, no admin rights required)
-Copy `coDE.bundle` into `~/Library/Keyboard Layouts` and pick `coDE` (German -> coDE) as layout in the preference pane.
+Unzip `coDE.bundle.zip`, copy `coDE.bundle` into `~/Library/Keyboard Layouts` and pick `coDE` (German -> coDE) as layout in the preference pane.
 
 #### for everyone (admin rights required)
-Copy `coDE.bundle` into `/Library/Keyboard Layouts` and pick `coDE` (German -> coDE) as layout in the preference pane.
+Unzip `coDE.bundle.zip`, copy `coDE.bundle` into `/Library/Keyboard Layouts` and pick `coDE` (German -> coDE) as layout in the preference pane.
 
 
 ### Installation (WIN)
@@ -50,8 +50,8 @@ Unzip `setup-win.zip`, execute `setup.exe` and pick layout `Deutsch (Lichtenstei
 ### shift
 ![shift](https://raw.githubusercontent.com/progmem64/coDE/master/layout-img/shift.png)
 
-### alt (win: AltGr)
+### alt (win: AltGr, only umlauts for now)
 ![alt](https://raw.githubusercontent.com/progmem64/coDE/master/layout-img/alt.png)
 
-### alt + shift (win: AltGr + Shift)
+### alt + shift (win: AltGr + Shift, only umlauts for now)
 ![alt + shift](https://raw.githubusercontent.com/progmem64/coDE/master/layout-img/altshift.png)
