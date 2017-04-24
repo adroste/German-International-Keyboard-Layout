@@ -41,6 +41,9 @@ Unzip `coDE.bundle.zip`, copy `coDE.bundle` into `/Library/Keyboard Layouts` and
 #### for everyone (admin rights required)
 Unzip `setup-win.zip`, execute `setup.exe` and pick layout `Deutsch (Lichtenstein) - coDE German Programming Layout`.
 
+#### per session (portable, no admin rights required, suited for use at public places)
+Unzip `portable-win.zip`, execute `pkl.exe`.
+
 
 ### Layout Images (ISO)
 
