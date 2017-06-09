@@ -67,4 +67,5 @@ Unzip `portable-win.zip`, execute `pkl.exe`. (Control via tray-icon)
 
 ### alt + shift (win: AltGr + Shift / Ctrl + Alt + Shift)
 ![alt + shift](https://raw.githubusercontent.com/progmem64/German-International-Keyboard-Layout/master/layout-img/altshift.png)
+
 *the Apple symbol is a heart ♥ on windows*
