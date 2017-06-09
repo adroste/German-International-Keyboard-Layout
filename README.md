@@ -5,7 +5,7 @@ Initial mac-layout: bmaeser
 
 A german optimized keyboard-layout (mac / win) (based on US-QWERTY) for programmers and people who use predefined shortcuts on a daily basis.
 
-### the problem
+### the problem(s)
 
 Most programs shortcut mappings are made for the U.S.-layout. That is why some shortcuts won't work on the german layout. This includes technically every key combination that requires an extra key modifier compared to the combination on the U.S.-layout. This is annoying and can only be resolved by defining custom shortcut mappings or using another layout. Unfortunately, the other layouts are missing the German umlauts (ä, ö, ü) as well as other language/region specific symbols (ß, €, °).
 
@@ -19,7 +19,7 @@ For ANSI and ISO keyboards.
 
 Essentially its a [us-keyboard-layout](http://en.wikipedia.org/wiki/File:KB_United_States-NoAltGr.svg) (QWERTY) with some alterations:
 
-* your umlauts, `€` and `ß` work with `option-key` / `alt` (win: `AltGr`) + base-key:
+* your umlauts, `€` and `ß` work with `option-key` / `alt` (win: `AltGr` / `Ctrl` + `Alt`) + base-key:
     * `alt` + `A` = `ä`
     * `alt` + `shift` + `A` = `Ä`
     * `alt` + `O` = `ö`
@@ -32,7 +32,8 @@ Essentially its a [us-keyboard-layout](http://en.wikipedia.org/wiki/File:KB_Unit
 * special on ISO-keyboards (the ones with the extra key between `left shift` and `z` (QWERTY) or `y` (QWERTZ)):
     * the extra key produces `§`
     * `°` (degree symbol) is on `shift` + `§`
-    * *If you have a better idea for the extra key, let me know*
+
+*If you have a better idea for the extra key, let me know*
 
 
 ## Installation (MAC)
@@ -56,13 +57,13 @@ Unzip `portable-win.zip`, execute `pkl.exe`. (Control via tray-icon)
 ## Layout images (ISO)
 
 ### default
-![default](https://raw.githubusercontent.com/progmem64/coDE/master/layout-img/default.png)
+![default](https://raw.githubusercontent.com/progmem64/German-International-Keyboard-Layout/master/layout-img/default.png)
 
 ### shift
-![shift](https://raw.githubusercontent.com/progmem64/coDE/master/layout-img/shift.png)
+![shift](https://raw.githubusercontent.com/progmem64/German-International-Keyboard-Layout/master/layout-img/shift.png)
 
 ### alt (win: AltGr / Ctrl + Alt)
-![alt](https://raw.githubusercontent.com/progmem64/coDE/master/layout-img/alt.png)
+![alt](https://raw.githubusercontent.com/progmem64/German-International-Keyboard-Layout/master/layout-img/alt.png)
 
 ### alt + shift (win: AltGr + Shift / Ctrl + Alt + Shift)
-![alt + shift](https://raw.githubusercontent.com/progmem64/coDE/master/layout-img/altshift.png)
+![alt + shift](https://raw.githubusercontent.com/progmem64/German-International-Keyboard-Layout/master/layout-img/altshift.png)
