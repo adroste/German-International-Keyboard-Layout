@@ -21,10 +21,7 @@ For ANSI and ISO keyboards.
 
 Essentially its a [us-keyboard-layout](http://en.wikipedia.org/wiki/File:KB_United_States-NoAltGr.svg) (QWERTY) with some alterations:
 
-*In the following context the term `alt` is used for the following modifier combinations:*
-*mac: `option-key` / `alt`*
-*win: `AltGr` / `Ctrl` + `Alt`*
-*linux: `AltGr` / `Right Alt` (other combinations like left alt key can also be used as explained further below)*
+*In the following context the term `alt` is used for the following modifier combinations: mac: `option-key` / `alt`, win: `AltGr` / `Ctrl` + `Alt`, linux: `AltGr` / `Right Alt` (other combinations like left alt key can also be used as explained further below)*
 
 * your umlauts, `€` and `ß` work with:
     * `alt` + `A` = `ä`
@@ -74,18 +71,15 @@ Essentially its a [us-keyboard-layout](http://en.wikipedia.org/wiki/File:KB_Unit
 
 ## Installation (LINUX)
 
-The layout was made for Ubuntu 16.04. It should also work on similiar systems using X11-KBD … like Ubuntu 14.04, 16.10, 17.04, … :), just try it out and report if something is broken
+The layout was made for Ubuntu 16.04. It should also work on similiar systems using X11-XKB … like Ubuntu 14.04, 16.10, 17.04, … :), just try it out and report if something is broken
 
 #### for everyone (root / sudo rights required)
 
-1. add the layout:
-   Unzip `GermanIntl-ubuntu.zip` and copy `gerintl` into `/usr/share/X11/xkb/symbols`. 
-2. create the layout definition:
-   The The next step is more difficult than on other systems, but it should be easy for someone who is using linux on its desktop: Copy the layout-rule found in `evdev-rule.xml` and paste it into `/usr/share/X11/xkb/rules/evdev.xml` between the last `</layout>` closing tag and the `</layoutList>` closing tag. Just do not mess up your layout config file. I did it, just do not do it.
+1. add the layout: Unzip `GermanIntl-ubuntu.zip` and copy `gerintl` into `/usr/share/X11/xkb/symbols`. 
+2. create the layout definition: The next step is more difficult than on other systems, but it should be easy for someone who is using linux on its desktop: Copy the layout-rule found in `evdev-rule.xml` and paste it into `/usr/share/X11/xkb/rules/evdev.xml` between the last `</layout>` closing tag and the `</layoutList>` closing tag. Just do not mess up your layout config file. I did it, just do not do it.
 3. reconfigure your xkb-date by executing `sudo dpkg-reconfigure xkb-data`
 4. *(a restart may be required)*
-5. select the keyboard layout:
-   Goto Settings > Text Entry > + > Add "German International"
+5. select the keyboard layout: Goto Settings > Text Entry > + > Add "German International"
 
 #### using different modifiers
 
