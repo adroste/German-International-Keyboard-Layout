@@ -1,0 +1,62 @@
+default  partial alphanumeric_keys modifier_keys
+xkb_symbols "gerintl" {
+
+    include "us(basic)"
+    name[Group1]= "German Intl.";
+    key.type[group1]="FOUR_LEVEL";
+
+    key <LSGT> { [   section,     degree,       section,       degree ] };
+    key <TLDE> { [     grave, asciitilde,    dead_grave,        grave ] };
+    key <AE01> { [	   1,     exclam,    exclamdown,            U2044 ] };
+    key <AE02> { [	   2,         at,     trademark,         EuroSign ] };
+    key <AE03> { [	   3, numbersign,      sterling,            U2039 ] };
+    key <AE04> { [	   4,     dollar,          cent,            U203A ] };
+    key <AE05> { [	   5,    percent,      infinity,            UFB01 ] };
+    key <AE06> { [     6,asciicircum,       section,            UFB02 ] };
+    key <AE07> { [	   7,  ampersand,     paragraph,     doubledagger ] };
+    key <AE08> { [	   8,   asterisk, enfilledcircbullet,      degree ] };
+    key <AE09> { [	   9,  parenleft,   ordfeminine,   periodcentered ] };
+    key <AE10> { [	   0, parenright,     masculine,singlelowquotemark] };
+    key <AE11> { [     minus, underscore,    endash,           emdash ] };
+    key <AE12> { [     equal,       plus,  notequal,        plusminus ] };
+
+    key <AD01> { [	   q,          Q,            oe,               OE ] };
+    key <AD02> { [	   w,          W,         U2211,doublelowquotemark] };
+    key <AD03> { [	   e,          E,      EuroSign,            acute ] };
+    key <AD04> { [	   r,          R,    registered,            U2030 ] };
+    key <AD05> { [	   t,          T,        dagger,       dead_caron ] };
+    key <AD06> { [	   y,          Y,           yen,            U00C1 ] };
+    key <AD07> { [	   u,          U,         U00FC,            U00DC ] };
+    key <AD08> { [	   i,        I, dead_circumflex,            U02C6 ] };
+    key <AD09> { [	   o,          O,         U00F6,            U00D6 ] };
+    key <AD10> { [	   p,          P,      Greek_pi,            U220F ] };
+    key <AD11> { [ bracketleft,  braceleft, leftdoublequotemark, rightdoublequotemark ] };
+    key <AD12> { [bracketright, braceright, leftsinglequotemark, rightsinglequotemark ] };
+    key <BKSL> { [ backslash,        bar, guillemotleft,   guillemotright ] };
+
+    key <AC01> { [	   a,          A,         U00E4,            U00C4 ] };
+    key <AC02> { [	   s,          S,        ssharp,            U00CD ] };
+    key <AC03> { [	   d,          D, partialderivative,        U00CE ] };
+    key <AC04> { [	   f,          F,      function,            U00CF ] };
+    key <AC05> { [	   g,          G,     copyright, dead_doubleacute ] };
+    key <AC06> { [	   h,          H, dead_abovedot,            U00D3 ] };
+    key <AC07> { [	   j,          J,         U2206,            U00D4 ] };
+    key <AC08> { [	   k,          K,dead_abovering,            U2665 ] };
+
+    key <AC09> { [	   l,          L,       notsign,            U00D2 ] };
+    key <AC10> { [ semicolon,      colon,     U2026,            U00DA ] };
+    key <AC11> { [apostrophe,   quotedbl,        ae,               AE ] };
+
+    key <AB01> { [	   z,          Z,   Greek_OMEGA,     dead_cedilla ] };
+    key <AB02> { [	   x,          X,         U2248,      dead_ogonek ] };
+    key <AB03> { [	   c,          C,      ccedilla,         Ccedilla ] };
+    key <AB04> { [	   v,          V,    squareroot,            U25CA ] };
+    key <AB05> { [	   b,          B,      integral,         idotless ] };
+    key <AB06> { [	   n,          N,    dead_tilde,            U02DC ] };
+    key <AB07> { [	   m,          M,            mu,            U00C2 ] };
+    key <AB08> { [     comma,       less, lessthanequal,      dead_macron ] };
+    key <AB09> { [    period,    greater, greaterthanequal,    dead_breve ] };
+    key <AB10> { [     slash,   question,      division,     questiondown ] };
+
+    include "level3(ralt_switch)"
+};
